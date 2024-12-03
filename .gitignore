@@ -21,6 +21,13 @@ lib-cov
 
 # Coverage directory used by tools like istanbul
 coverage
+.sass-cache
+connect.lock
+libpeerconnection.log
+npm-debug.log
+testem.log
+typings
+.angular
 *.lcov
 
 # nyc test coverage
@@ -31,6 +38,9 @@ coverage
 
 # Bower dependency directory (https://bower.io/)
 bower_components
+
+# IDEs and editors
+.idea
 
 # node-waf configuration
 .lock-wscript
@@ -90,6 +100,7 @@ out
 # Nuxt.js build / generate output
 .nuxt
 dist
+tmp
 
 # Gatsby files
 .cache/
@@ -121,6 +132,13 @@ dist
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
+
+# e2e
+e2e/*.js
+e2e/*.map
+
+# System Files
+.DS_Store/
 
 # yarn v2
 .yarn/cache
